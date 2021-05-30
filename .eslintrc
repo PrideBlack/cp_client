@@ -1,0 +1,71 @@
+{
+  "plugins": [
+    "prettier",
+    "disable"
+  ],
+  "rules": {
+    "max-len": ["error", 120],
+    "react/no-array-index-key": "off",
+    "linebreak-style": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "react/jsx-indent": [
+      "error",
+      4
+    ],
+    "react/jsx-indent-props": [
+      "error",
+      4
+    ],
+    "react/destructuring-assignment": "off",
+    "react/prop-types": "off",
+    "no-plusplus": "off",
+    "no-console": "off",
+    "react/jsx-props-no-spreading": "off",
+    "operator-linebreak": "off",
+    "react/jsx-closing-bracket-location": [
+      1,
+      {
+        "selfClosing": "tag-aligned",
+        "nonEmpty": "after-props"
+      }
+    ],
+    "react/no-unescaped-entities": "off",
+    "react/require-default-props": "off",
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "implicit-arrow-linebreak": "off",
+    "object-curly-newline": "off",
+    "no-confusing-arrow": "off",
+    "react/jsx-curly-newline": "off",
+    "no-undef": "off",
+    "react/no-danger": "off",
+    "react/button-has-type": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "function-paren-newline": "off",
+    "no-debugger": "warn",
+    "import/prefer-default-export": "off"
+  },
+  "processor": "disable/disable",
+}
